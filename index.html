@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab8</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">USER VS COMPUTER</h1>
+        <div id="input-container">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button id="start">Start the game</button>
+        </div>
+        <div id="game" style="display:none;">
+            <div class="player-container">
+                <div class="player">
+                    <p id="user-name" class="name"></p>
+                    <div id="user-number" class="circle"></div>
+                    <p id="user-number-text" class="number"></p>
+                    <p id="user-score" class="score">0</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="player">
+                    <p class="name">Computer</p>
+                    <div id="computer-number" class="circle"></div>
+                    <p id="computer-number-text" class="number"></p>
+                    <p id="computer-score" class="score">0</p>
+                </div>
+            </div>
+            <button id="start-game">Battle</button>
+            <p id="result" class="result"></p>
+        </div>
+    </div>
+</body>
+</html>

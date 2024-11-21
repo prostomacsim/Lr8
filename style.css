@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9bcb9;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.result{
+    text-shadow: black 1px 0 10px;
+}
+.h1{
+    color: gray;
+    text-shadow: black 1px 0 10px;
+}
+.container {
+    box-shadow: 10px 5px 5px black;
+    text-align: center;
+    padding: 20px;
+    background-color: #ed9e59;
+    border-radius: 10%;
+    width: 500px;
+}
+
+#input-container {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #f81818;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.player-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#user-number {
+    background-image: url(user.png);
+}
+
+#computer-number {
+    background-image: url(bot.png);
+}
+
+.score {
+    color :aliceblue;
+    font-weight: bold;
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #004a55;
+}
+
+
